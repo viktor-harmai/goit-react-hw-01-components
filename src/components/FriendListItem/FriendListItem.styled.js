@@ -22,7 +22,6 @@ export const FriendItem = styled.li`
 export const FriendName = styled.p`
   flex-grow: 1;
 
-  font-family: Quicksand;
   font-weight: 700;
   font-size: 24px;
 `;

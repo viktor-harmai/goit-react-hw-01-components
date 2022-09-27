@@ -26,20 +26,17 @@ export const Avatar = styled.img`
 `;
 
 export const Name = styled.p`
-  font-family: Quicksand;
   font-weight: 700;
   font-size: 24px;
 `;
 
 export const Tag = styled.p`
-  font-family: Quicksand;
   font-weight: 500;
   font-size: 18px;
   color: #5e6163;
 `;
 
 export const Location = styled.p`
-  font-family: Quicksand;
   font-weight: 500;
   font-size: 18px;
   color: #5e6163;

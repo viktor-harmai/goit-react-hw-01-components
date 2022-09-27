@@ -11,8 +11,8 @@ export const StatContainer = styled.section`
 
 export const Title = styled.h2`
   padding: 30px;
+
   text-align: center;
-  font-family: Quicksand;
   font-weight: 700;
   font-size: 24px;
 `;
@@ -27,22 +27,21 @@ export const StatItem = styled.li`
   flex-direction: column;
   flex-basis: calc(100% / 5);
   gap: 7px;
+
   padding: 10px 0px;
-  /* overflow: hidden; */
+
   background-color: #dadfe8;
   background-color: ${props => props.color};
 `;
 
 export const StatLabel = styled.span`
   text-align: center;
-  font-family: Quicksand;
   font-weight: 500;
   font-size: 18px;
 `;
 
 export const StatPercentage = styled.span`
   text-align: center;
-  font-family: Quicksand;
   font-weight: 700;
   font-size: 20px;
 `;

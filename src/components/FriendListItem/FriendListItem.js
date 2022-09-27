@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { GrStatusGoodSmall } from 'react-icons/gr';
+import { iconSize } from 'constants/';
 import {
   FriendItem,
   FriendName,
@@ -8,7 +9,7 @@ import {
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <FriendItem status={isOnline}>
-      <GrStatusGoodSmall size={24} />
+      <GrStatusGoodSmall size={iconSize.sm} />
       <img src={avatar} alt="User avatar" width="48" />
       <FriendName>{name}</FriendName>
     </FriendItem>
